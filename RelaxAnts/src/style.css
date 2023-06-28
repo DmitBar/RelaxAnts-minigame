@@ -1,0 +1,45 @@
+body {
+    width: 400px;
+    height: 400px;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #antFarm {
+    width: 100%;
+    height: 100%;
+    background-color: #964B00;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* Изменение значения на 10 для ширины сетки */
+    grid-template-rows: repeat(10, 1fr); /* Изменение значения на 10 для высоты сетки */
+  }
+  
+  #antFarm > div:first-child {
+    background-color: #8f4;
+  }
+  
+  .cell {
+    border: none;
+    background-color: transparent;
+    width: calc(100% / 10); /* Добавление вычисления ширины ячейки */
+    height: calc(100% / 10); /* Добавление вычисления высоты ячейки */
+  }
+  
+  .ant {
+    background-color: #000;
+    transition: background-color 0.3s;
+  }
+  
+  .tunnel {
+    background-color: #ccc;
+  }
+  
+  #controls {
+    margin-top: 10px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "RelaxAnts",
+    "version": "0.0.1",
+    "description": "A simple simulation of an ant farm for relaxation",
+    "icons": {
+      "48": "icons/ants-48.png",
+      "96": "icons/ants-96.png"
+    },
+    "permissions": ["activeTab"],
+    "browser_action": {
+      "default_icon": {
+        "48": "icons/ants-48.png"
+      },
+      "default_title": "RelaxAnts",
+      "default_popup": "popup/ants.html"
+    }
+  }
+  
